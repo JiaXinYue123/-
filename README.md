@@ -1,36 +1,68 @@
 
+首页
+同步课
+课程
+社区
+
+搜索…
+ 2-贾心悦
+同步课/2019级Web开发（一）  已加入
+ 简介
+ 互动
+ 课程 1
+ 任务 7
+ 成员 412
+CSS网页布局
+刘孟祎 发布于 2020-05-21 17:48
+ 
+2-贾心悦
+提交于 2020-05-31 20:53
+8分
+ 作业附件
+
 <!DOCTYPE html>
 <html>
 <head lang="en">
-	<meta charset="utf-8">
-	<title>demo</title>
-	<link rel="stylesheet" type="text/css" href="./1.css">
+<meta charset="utf-8">
+<title>demo</title>
+<link rel="stylesheet" type="text/css" href="./1.css">
 </head>
 <body>
-	<div class="background">
-		<div class="nav clear">
-			<p class="nav-first left">雪梨在线</p>
-
-			<ul class="clear">
-				<li class="left">
-						<a href="#">首页</a>
-				</li>
-				<li class="left">
-						<a href="#">课程</a>
-				</li>	
-				<li class="left">
-						<a href="#" class="long">职业规划</a>					
-				</li>
-			</ul>
-			<p class="nav-last right"><a href="#">个人中心</a></p>
-			<form class="clear right">
-				<input type="text" name="search" placeholder="输入关键字" class="left search-one">
-				<input type="button" name="button" class="search-two left">
-			</form>
-		</div>
-	</div>
-	<div class="banner">
-		<div>
+<div class="background">
+<div class="nav clear">
+<p class="nav-first left">雪梨在线</p>
+<ul class="clear">
+<li class="left">
+<a href="#">首页</a>
+</li>
+<li class="left">
+<a href="#">课程</a>
+</li>	
+<li class="left">
+<a href="#" class="long">职业规划</a>					
+</li>
+</ul>
+<p class="nav-last right"><a href="#">个人中心</a></p>
+<form class="clear right">
+<input type="text" name="search" placeholder="输入关键字" class="left search-one"><input type="button" name="button" class="search-two left">
+</form>
+</div>
+</div>
+<div class="banner">
+<div>
+<div class="background">
+<div class="hobby clear">
+<div>
+<ul class="clear">
+<li class="left"><a href="#">精品推荐</a></li>
+<li class="left"><a href="#">JQuery</a></li>
+<li class="left"><a href="#">Spark</a></li>
+li class="left"><a href="#">MySQL</a></li>
+<li class="left"><a href="#">JavaWeb</a></li>
+<li class="left"><a href="#">MySQL</a></li>
+<li class="left"><a href="#">JavaWeb</a></li>
+</ul>
+			</div>
 			<div class="banner-ul">
 				<ul>
 					<a href="#"><li class="banner-img">前端开发</li></a>
@@ -46,93 +78,84 @@
 			</div>
 		</div>
 	</div>
-	<div class="background">
-		<div class="hobby clear">
-			<div>
-				<ul class="clear">
-					<li class="left"><a href="#">精品推荐</a></li>
-					<li class="left"><a href="#">JQuery</a></li>
-					<li class="left"><a href="#">Spark</a></li>
-					<li class="left"><a href="#">MySQL</a></li>
-					<li class="left"><a href="#">JavaWeb</a></li>
-					<li class="left"><a href="#">MySQL</a></li>
-					<li class="left"><a href="#">JavaWeb</a></li>
-				</ul>
-			</div>
-			<p class="right"><a href="#">修改兴趣</a></p>
+	
+			<p class="right">
+<a href="#">修改兴趣</a></p>
 		</div>
 		<div class="STB1">
-			<div class="left bar1-one">精品推荐</div>
-			<div class="right bar1-two"><a href="#">查看更多</a></div>
+			<div class="left bar1-one">
+精品推荐</div>
+			<div class="right bar1-two">
+<a href="#">查看更多</a></div>
 		</div>
 	</div>
 	<div class="background">
 		<div class="image">
 			<div class="text-box left">
-				<img src="./1.png">
+				<img src="./a.png">
 				<div>
 					<div class="text-box-one">Think PHP 5.0 博客系统实战项目演练</div>
 					<div class="text-box-two"><span>高级</span> • 1125人在学习</div>
 				</div>
 			</div>
 			<div class="text-box left">
-				<img src="./2.png">
+				<img src="./b.png">
 				<div>
 					<div class="text-box-one">Android 网络图片加载框架详解</div>
 					<div class="text-box-two"><span>高级</span> • 1125人在学习</div>
 				</div>
 			</div>
 			<div class="text-box left">
-				<img src="./3.png">
+				<img src="./c.png">
 				<div>
 					<div class="text-box-one">Angular 2 最新框架+主流技术+项目实战</div>
 					<div class="text-box-two"><span>高级</span> • 1125人在学习</div>
 				</div>
 			</div>
 			<div class="text-box left">
-				<img src="./4.png">
+				<img src="./d.png">
 				<div>
 					<div class="text-box-one">Android Hybrid APP开发实战 H5+原生!</div>
 					<div class="text-box-two"><span>高级</span> • 1125人在学习</div>
 				</div>
 			</div>
 			<div class="text-box left text-box-last">
-				<img src="./4.png">
+				<img src="./d.png">
 				<div>
 					<div class="text-box-one">Android Hybrid APP开发实战 H5+原生!</div>
 					<div class="text-box-two"><span>高级</span> • 1125人在学习</div>
 				</div>
-			</div>
-			<div class="text-box left reset">
-				<img src="./1.png">
+</div>
+<div class="text-box left reset">
+<img src="./a.png">
 				<div>
 					<div class="text-box-one">Think PHP 5.0 博客系统实战项目演练</div>
 					<div class="text-box-two"><span>高级</span> • 1125人在学习</div>
 				</div>
 			</div>
 			<div class="text-box left reset">
-				<img src="./2.png">
+				<img src="./b.png">
 				<div>
 					<div class="text-box-one">Android 网络图片加载框架详解</div>
 					<div class="text-box-two"><span>高级</span> • 1125人在学习</div>
 				</div>
 			</div>
 			<div class="text-box left reset">
-				<img src="./3.png">
+				<img src="./c.png">
 				<div>
 					<div class="text-box-one">Angular 2 最新框架+主流技术+项目实战</div>
 					<div class="text-box-two"><span>高级</span> • 1125人在学习</div>
 				</div>
 			</div>
 			<div class="text-box left reset">
-				<img src="./4.png">
+				<img src="./d.png">
 				<div>
 					<div class="text-box-one">Android Hybrid APP开发实战 H5+原生!</div>
 					<div class="text-box-two"><span>高级</span> • 1125人在学习</div>
 				</div>
 			</div>
 			<div class="text-box left text-box-last reset">
-				<img src="./4.png">
+				<img src="./d.png">
 				<div>
 					<div class="text-box-one">Android Hybrid APP开发实战 H5+原生!</div>
 					<div class="text-box-two"><span>高级</span> • 1125人在学习</div>
@@ -156,35 +179,39 @@
 	<div class="background">
 		<div class="two-text-box clear">
 			<div class="text-box left reset">
-				<img src="./a1.png">
+				<img src="./a a.png">
 				<div>
 					<div class="text-box-one">微软人工智能-数据分析平台</div>
 					<div class="text-box-two"><span>高级</span> • 1125人在学习</div>
 				</div>
 			</div>
 			<div class="text-box left reset">
-				<img src="./a2.png">
+				<img src="./a b.png">
+				<div>
+					<div class=  "text-box-one">
+微软人工智能-数据分析平台</div>
+					<div class=  "text-box-two">
+<span>高级</span> • 1125人在学习</div>
+				</div>
+			</div>
+			<div class="text-box left reset">
+				<img src="./a c.png">
 				<div>
 					<div class="text-box-one">微软人工智能-数据分析平台</div>
 					<div class="text-box-two"><span>高级</span> • 1125人在学习</div>
 				</div>
 			</div>
 			<div class="text-box left reset">
-				<img src="./a3.png">
+				<img src="./a d.png">
 				<div>
-					<div class="text-box-one">微软人工智能-数据分析平台</div>
-					<div class="text-box-two"><span>高级</span> • 1125人在学习</div>
-				</div>
-			</div>
-			<div class="text-box left reset">
-				<img src="./a4.png">
-				<div>
-					<div class="text-box-one">微软人工智能-数据分析平台</div>
+					<div class="text-box-one">
+微软人工智能-数据分析平台
+</div>
 					<div class="text-box-two"><span>高级</span> • 1125人在学习</div>
 				</div>
 			</div>
 			<div class="text-box-last left text-box reset">
-				<img src="./a5.png">
+				<img src="./a e.png">
 				<div>
 					<div class="text-box-one">微软人工智能-数据分析平台</div>
 					<div class="text-box-two"><span>高级</span> • 1125人在学习</div>
@@ -199,8 +226,8 @@
 	</div>
 	<div class="background">
 		<div class="two-text-box clear">
-			<div class="b1 left">
-				<img src="./b1.png">
+			<div class="b a left">
+				<img src="./ba.png">
 				<div class="text">
 					<div><span>毕业季</span><br>带你华丽转身</div>
 					<form>
@@ -210,24 +237,26 @@
 			</div>
 
 			<div class="left p">
-				<img src="./p1.png">
+				<img src="./p a.png">
 				<div class="a">
 					<p class="one"><span>闻老师</span>&nbsp;&nbsp;&nbsp;大数据</p>
 					<p class="two">高级互联网软件工程师，曾担任某物流公司CRM开发团队TL。多年JAVAEE。大数据领域研发......</p>
 				</div>
 			</div>
 			<div class="left p">
-				<img src="./p2.png">
+				<img src="./p b.png">
 				<div class="b">
 					<p class="one"><span>汪老师</span>&nbsp;&nbsp;&nbsp;前端</p>
 					<p class="two">高级软件架构师，全栈开发，多年大型项目管理经验。对Web Components、Node.js......</p>
 				</div>
 			</div>
 			<div class="left p">
-				<img src="./p3.png">
+				<img src="./p c.png">
 				<div class="b">
 					<p class="one"><span>江老师</span>&nbsp;&nbsp;&nbsp;前端</p>
-					<p class="two">多年软件开发经验和教学经验，精通html，css，js,asp.net等编程语言和数据库系统......</p>
+					<p class="two">
+多年软件开发经验和教学经验，精通html，css，js,asp.net等编程语言和数据库系统......
+</p>
 				</div>
 			</div>
 		</div>
@@ -266,18 +295,26 @@
 		</div>
 		<div class = "right">
 			<div class = "top">
-				合作伙伴
-			</div>
-			<div class = "bottom"><a href="#">合作机构</a></div>
-			<div class = "bottom"><a href="#">合作导师</a></div>
+合作伙伴
+</div>
+<div class = "bottom">
+<a href="#">合作机构</a></div>
+			<div class = "bottom">
+<a href="#">合作导师</a></div>
 		</div>
 	</div>
 </body>
 </html>
-	<div>
-		
+	<div>	
 	</div>
 </body>
 </html>
+
 <div class="left p">
 				
+ 
+
+作业讨论
+
+# 话题
+© 2015-2020 雪梨教育 石家庄佳诚网络技术有限公司版权所有 冀ICP备12011972号-4
